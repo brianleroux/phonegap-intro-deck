@@ -158,7 +158,7 @@
         </h2>
       </article>
 
-      <article><img src=/img/tank.jpg></article>
+      <article><img class=centered src=/img/tank.jpg></article>
       
       <article>
         <h3>Problems Web Technology Solved</h3>
@@ -233,192 +233,252 @@
       <article>
         <h1>PhoneGap is Powered by Apache Cordova</h1>
         <li>
-        PhoneGap is a distribution of the Open Source Apache Cordova Project
+        PhoneGap is a distribution of the open source Apache Cordova Project
         <li>
         There is no difference between the two; we plan to integrate our cloud services for SDK fallback eventually.
         <li>
         PhoneGap always has been will always remain free open source software. 
+        <li>
+        think: cordova is to phonegap as webkit is to chrome 
       </article>
 
-
-      <!--
-      <article>
-        <h3>
-          Slide with bullet points that builds
-        </h3>
-        <ul class="build">
-          <li>
-            This is an example of a list
-          </li>
-          <li>
-            The list items fade in
-          </li>
-          <li>
-            Last one!
-          </li>
-        </ul>
-
-        <div class="build">
-          <p>Any element with child nodes can build.</p>
-          <p>It doesn't have to be a list.</p>
-        </div>
-      </article>
-        -->
 
       <article>
-        <h3>
-          Styles
-        </h3>
-        <ul>
-          <li>
-            <span class='red'>class="red"</span>
-          <li>
-            <span class='blue'>class="blue"</span>
-          <li>
-            <span class='green'>class="green"</span>
-          <li>
-            <span class='yellow'>class="yellow"</span>
-          <li>
-            <span class='black'>class="black"</span>
-          <li>
-            <span class='white'>class="white"</span>
-          <li>
-            <b>bold</b> and <i>italic</i>
-        </ul>
-      </article>
-      
-
-      <article>
-        <h3>
-          Slide with an image
-        </h3>
-        <p>
-          <img style='height: 500px' src='/img/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Sergey Brin
-        </div>
-      </article>
-
-      <article>
-        <h3>
-          Slide with an image (centered)
-        </h3>
-        <p>
-          <img class='centered' style='height: 500px' src='/img/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Larry Page
-        </div>
-      </article>
-
-      <article class='fill'>
-        <h3>
-          Image filling the slide (with optional header)
-        </h3>
-        <p>
-          <img src='/img/example-cat.jpg'>
-        </p>
-        <div class='source white'>
-          Source: Eric Schmidt
-        </div>
-      </article>
-
-      <article>
-        <h3>
-          This slide has some code
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          This slide has some code (small font)
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
+        <h1>PhoneGap Community</h1>
+        <li>
+        Adobe
+        <li>
+        IBM
+        <li>
+        Microsoft
+        <li>
+        RIM
+        <li>
+        Nokia
       </article>
       
       <article>
-        <q>
-          The best way to predict the future is to invent it.
-        </q>
-        <div class='author'>
-          Alan Kay
-        </div>
-      </article>
-      
-      <article class='smaller'>
-        <q>
-          A distributed system is one in which the failure of a computer 
-          you didn’t even know existed can render your own computer unusable.
-        </q>
-        <div class='author'>
-          Leslie Lamport
-        </div>
-      </article>
-      
-      <article class='nobackground'>
-        <h3>
-          A slide with an embed + title
-        </h3>
-        
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+        <h1>PhoneGap and Web Standards</h1>
+        <li>
+        we track various W3C groups
+        <li>
+        we focus largely on W3C Device API working group
+        <li>
+        also track HTML5 webapps working group, W3C Widget Group, and others
       </article>
 
-      <article class='nobackground'>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      <article>
+        <h1>PhoneGap Philosophy</h1>
+        <li>
+        simple is better; when in doubt: use brute force 
+        <li>
+        the web solved cross platform across devices
+        <li>
+        free open source software is a superior model for platform development
       </article>
 
-      <article class='fill'>
-        <h3>
-          Full-slide embed with (optional) slide title on top
-        </h3>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      <article>
+        <h2>PhoneGap Philosophy: Simple is Better</h2>
+        <li>
+        a javascript based foreign function interface between a chromeless browser instance on the device and the native platform code
+        <li>
+        sometimes we call this “the hack” or the “the bridge”. orig on ios we used the URL for the bridge!
+        <li>
+        it is a blunt method, requiring brute force indeed
+        <li>
+        this technique has scaled to 8 platforms and up to 300 operations per second
+        <li>
+        detractors say its ‘not native’. those detractors support 2 platforms, poorly.
+      </article>
+
+
+      <article>
+        <h2>PhoneGap Philosophy: The Web Solved Cross Platform</h2>
+        <li>
+        Apple iOS
+        <li>
+        Google Android
+        <li>
+        RIM BlackBerry
+        <li>
+        Microsoft Windows Phone
+        <li>
+        Samsung Bada
+        <li>
+        Nokia Symbian
+        <li>
+        Nokia Qt
+        <li>
+        HP webOS
+      </article>
+
+      <article>
+        <h2>PhoneGap Project Goals</h2>
+        <li class=grey>
+            the web is a first class development platform
+        <li class=green>
+            &rarr; installable web apps; no sandbox; good tools
+        <li class=grey>
+            cease to exist
+        <li class=green>
+            &rarr; reference impl for web standards; the W3C DAP was created because of PhoneGap
       </article>
       
       <article>
-        <h3>
-          Thank you!
-        </h3>
-        
-        <ul>
-          <li>
-            <a href='http://www.google.com'>google.com</a>
-        </ul>
+        <h1>PhoneGap is FREE *</h1>
+        <li>
+        to use
+        <li>
+        to modify
+        <li>
+        to distribute
+        <li>
+        to sell
+        <h2>* as in speech, not beer</h2>
+      </article>
+      
+      <article>
+        <h1>Device APIs</h1>
+        <li>
+        truely cross platform
+        <li>
+        sensors
+        <li>
+        data
+        <li>
+        outputs
+      </article>
+      
+      
+      <article>
+        <h1>Device Sensors</h1>
+        <li>
+        Camera
+        <li>
+        Accelerometer
+        <li>
+        Magnometer
+        <li>
+        GPS
+      </article>
+      
+      
+      <article>
+        <h1>Device Data</h1>
+        <li>
+        Filesystem
+        <li>
+        Media
+        <li>
+        Contacts
+      </article>
+
+      <article>
+        <h1>PhoneGap &amp; UNIX Philosophy</h1>
+        <li>
+        we advocate freedom of choice for devlopers
+        <li>
+        we advocate small, single purpose, and loosely coupled tools
+        <li>
+        we <b>do not</b> dictate tooling for gui development; leave that to the open community and support everyone (jquery, dojo, sencha, yui, etc)
+        <li>
+        we <b>do not</b> dictate IDE choices; everything can be done with YOUR favorite tool as long as it supports text
+      </article>
+
+      <article>
+        <h1>PhoneGap Plugins: Unlimited Extensibility</h1>
+        <li>
+        Every PhoneGap API is a PhoneGap plugin.
+        <li>
+        3rd parties building plugins now too.
+        <li>
+        Facebook most notably. Salesforce too.
+      </article>
+
+
+
+      <article>
+        <h1>PhoneGap Problems and Weaknesses</h1>
+        <li>
+        web vs native
+        <li>
+        device browser variance
+      </article>
+
+
+
+      <article>
+        <h2>PhoneGap Plugins invalidate any aspect of the web vs native debate.</h2>
+      </article>
+
+
+
+      <article>
+      <h2>PhoneGap Browser Parity</h2>
+      <li>
+      phonegap is mostly based on the onboard sdk webkits ...but these are different forks
+      <li>
+      we *could* build our own webkit; but executable size would be &gt;20mb vs &lt;25kb
+      <li>
+      android performance not quite at ios
+      <li>
+      windows phone uses ie (*sigh)
+      </article>
+
+      <article>
+      <h2>Hosted Services</h2>
+      <li>
+      targets for value add and revenue capability
+      <li>
+      better automatoin, insturmentation, tooling capabilities
+      <li>
+      app distribution capability
+      <li>
+      http://build.phonegap.com and http://debug.phonegap.com
+      </article>
+
+      <article>
+      <h2>Support Services</h2>
+      <li>
+      security for enterprise customers
+      <li>
+      bug fixes and custom patches
+      <li>
+      a phone number to call anytime
+      <li>
+      advisory hours and custom development problem solving
+      </article>
+
+
+      <article>
+      <h2>First Priority is Contribution</h2>
+      <li>
+      an open src project is only as healthy as its activity. 
+      <li>
+      First priority is recruitment of committers.
+      <li>
+      When we can’t recruit for committing to the open source project we want them to open source plugins.
+      </article>
+
+      <article>
+      <h2>Useful Links</h2>
+      <li>
+      http://phonegap.com
+      <li>
+      http://phonegap.com/support
+      <li>
+      http://wiki.phonegap.com
+      <li>
+      http://docs.phonegap.com
+      </article>
+
+
+      <article>
+      <h2>Key Contacts</h2>
+      <li>
+      open src proj owner: @brianleroux - brianl@adobe.com
+      <li>
+      phonegap build proj owner: @davejohnson - dcj@adobe.com
       </article>
 
     </section>
