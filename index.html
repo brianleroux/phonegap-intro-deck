@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PhoneGap Intro Deck</title>
+    <meta charset=utf-8>
+    <script src=/js/slides.js></script>
+    <script src=/js/prettify.js></script>
+    <link type=text/css rel=stylesheet href=/css/slides.css>
+  </head>
+  <body style=display:none>
+
+    <section class="slides layout-regular template-default">
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+         PhoneGap 
+          <br>
+          An Introduction
+        </h1>
+        <p>
+        <a href="http://twitter.com/brianleroux">@brianleroux</a>
+          <br>
+          Feb 22, 2012
+        </p>
+      </article>
+      
+      <article>
+        <h3>The Problem</h3>
+        
+        <table>
+          <tr>
+            <th>
+                Target OS
+            <th>
+                Development OS
+            <th>
+                Language
+          <tr>
+            <td>
+                Apple iOS 
+            <td>
+                Apple OS X
+            <td>
+                Objective C
+          <tr>
+            <td>
+                Google Android 
+            <td>
+                *
+            <td>
+                Java (Apache Harmony-ish Dalik Interpretor)
+          <tr>
+            <td>
+                RIM BlackBerry 
+            <td>
+                Windows, OS X
+            <td>
+                HTML, CSS and JS. Also: Java
+          <tr>
+            <td>
+                Windows Phone 
+            <td>
+                Windows
+            <td>
+                Any .NET citizen (Silverlight runtime)
+          <tr>
+            <td>
+                Samsung Bada
+            <td>
+                Windows
+            <td>
+                C++
+          <tr>
+            <td>
+                HP webOS 
+            <td>
+                *
+            <td>
+                HTML, CSS and JS (Also: NodeJS!)
+          <tr>
+            <td>
+                Symbian, MeeGo 
+            <td>
+                *
+            <td>
+                C++ (Qt)
+
+        </table>
+      </article>
+      
+      <article>
+        <h1>In Summary</h1>
+        <li>
+            proficient in 8 programming languages and sdks
+        <li>
+            possess 8 devices for testing (emulators not enough to ship)
+        <li>
+            running 2 operating systems (virtualized or otherwise)
+      </article>
+
+      <article>
+        <h1>More Devices Every Year</h1>
+        <li>
+        tablets on the rise; mostly iPads and Androids
+        <li>
+        feature phones replacing smartphones
+        <li>
+        smartphones accessing the web overtook desktop browsers accessing the web in 2010
+        <li>
+        responsive design in infancy
+      </article>
+
+
+      <article>
+      <h1>Developer Prediction Impossible</h1>
+        <ul>
+          <li>
+          2008 BlackBerry dominated global marketshare for app developers
+          </li>
+          <li>
+          2009 iOS dominated
+          </li>
+          <li>
+          2010 Android dominated
+          </li>
+          <li>
+          2011 Android dominance continued ...but now fragmentation between versions high
+          </li>
+          <li class=red>
+          2012: ?
+          </li>
+        </ul>
+      </article>
+
+      <article>
+      <h1>The Rise of Web Operating Systems</h1>
+        <ul>
+          <li>
+          Tizen collaboration lead by Samsung, a leading manufacturer
+          </li>
+          <li>
+          HP announces webOS being open sourced
+          </li>
+          <li>
+          Mozilla Boot2Gecko
+          </li>
+          <li>
+          WebinOS effort under way
+          </li>
+        </ul>
+      </article>
+      
+      <article>
+        <h2 class=red>
+            many operating systems, many sdks, many devices, with more coming, no clear winners or consolidation
+        </h2>
+      </article>
+
+      <article><img src=/img/tank.jpg></article>
+      
+      <article>
+        <h3>Problems Web Technology Solved</h3>
+        <ul class="build">
+          <li>
+            many operating systems
+          </li>
+          <li>
+            many devices and screen sizes
+          </li>
+          <li>
+            many sdks
+          </li>
+        </ul>
+      </article>
+      
+      <article>
+        <h3>Problems Remain</h3>
+        <ul class="build">
+          <li>
+          the web is sandboxed
+          </li>
+          <li>
+          the web has no good offline story
+          </li>
+          <li>
+          the web cannot participate in app store distribution revenue
+          </li>
+          <li>
+          the web cannot access device apis
+          </li>
+          <li>
+          the web has shitty tooling
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h1>Enter PhoneGap</h1>
+        <li>
+        hybrid development: combining the strengths of the web with native envs
+        <li>
+        first project to bridge a native browser instance to device apis
+        <li>
+        all the benefits of the web without hiding the native platforms internals or tooling
+      </article>
+      
+      <article>
+        <h1 class=red>PhoneGap IS NOT</h1>
+        <li>
+        an IDE (we do not dictate tooling choices)
+        <li>
+        a language (the web is the platform)
+        <li> 
+        proprietary (everything is open source and apache licensed)
+        <li>
+        a runtime (shipping a runtime is prohibitive to downloading apps over a network)
+      </article>
+      
+      <article>
+        <h1 class=green>PhoneGap IS</h1>
+        <li>
+        free open source software
+        <li>
+        built with web standards in mind
+        <li>
+        open across many platforms
+        <li>
+        active and diverse development community and committership
+      </article>
+      
+      <article>
+        <h1>PhoneGap is Powered by Apache Cordova</h1>
+        <li>
+        PhoneGap is a distribution of the Open Source Apache Cordova Project
+        <li>
+        There is no difference between the two; we plan to integrate our cloud services for SDK fallback eventually.
+        <li>
+        PhoneGap always has been will always remain free open source software. 
+      </article>
+
+
+      <!--
+      <article>
+        <h3>
+          Slide with bullet points that builds
+        </h3>
+        <ul class="build">
+          <li>
+            This is an example of a list
+          </li>
+          <li>
+            The list items fade in
+          </li>
+          <li>
+            Last one!
+          </li>
+        </ul>
+
+        <div class="build">
+          <p>Any element with child nodes can build.</p>
+          <p>It doesn't have to be a list.</p>
+        </div>
+      </article>
+        -->
+
+      <article>
+        <h3>
+          Styles
+        </h3>
+        <ul>
+          <li>
+            <span class='red'>class="red"</span>
+          <li>
+            <span class='blue'>class="blue"</span>
+          <li>
+            <span class='green'>class="green"</span>
+          <li>
+            <span class='yellow'>class="yellow"</span>
+          <li>
+            <span class='black'>class="black"</span>
+          <li>
+            <span class='white'>class="white"</span>
+          <li>
+            <b>bold</b> and <i>italic</i>
+        </ul>
+      </article>
+      
+
+      <article>
+        <h3>
+          Slide with an image
+        </h3>
+        <p>
+          <img style='height: 500px' src='/img/example-graph.png'>
+        </p>
+        <div class='source'>
+          Source: Sergey Brin
+        </div>
+      </article>
+
+      <article>
+        <h3>
+          Slide with an image (centered)
+        </h3>
+        <p>
+          <img class='centered' style='height: 500px' src='/img/example-graph.png'>
+        </p>
+        <div class='source'>
+          Source: Larry Page
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h3>
+          Image filling the slide (with optional header)
+        </h3>
+        <p>
+          <img src='/img/example-cat.jpg'>
+        </p>
+        <div class='source white'>
+          Source: Eric Schmidt
+        </div>
+      </article>
+
+      <article>
+        <h3>
+          This slide has some code
+        </h3>
+        <section>
+        <pre>
+&lt;script type='text/javascript'&gt;
+  // Say hello world until the user starts questioning
+  // the meaningfulness of their existence.
+  function helloWorld(world) {
+    for (var i = 42; --i &gt;= 0;) {
+      alert('Hello ' + String(world));
+    }
+  }
+&lt;/script&gt;
+&lt;style&gt;
+  p { color: pink }
+  b { color: blue }
+  u { color: 'umber' }
+&lt;/style&gt;
+</pre>
+        </section>
+      </article>
+      
+      <article class='smaller'>
+        <h3>
+          This slide has some code (small font)
+        </h3>
+        <section>
+        <pre>
+&lt;script type='text/javascript'&gt;
+  // Say hello world until the user starts questioning
+  // the meaningfulness of their existence.
+  function helloWorld(world) {
+    for (var i = 42; --i &gt;= 0;) {
+      alert('Hello ' + String(world));
+    }
+  }
+&lt;/script&gt;
+&lt;style&gt;
+  p { color: pink }
+  b { color: blue }
+  u { color: 'umber' }
+&lt;/style&gt;
+</pre>
+        </section>
+      </article>
+      
+      <article>
+        <q>
+          The best way to predict the future is to invent it.
+        </q>
+        <div class='author'>
+          Alan Kay
+        </div>
+      </article>
+      
+      <article class='smaller'>
+        <q>
+          A distributed system is one in which the failure of a computer 
+          you didn’t even know existed can render your own computer unusable.
+        </q>
+        <div class='author'>
+          Leslie Lamport
+        </div>
+      </article>
+      
+      <article class='nobackground'>
+        <h3>
+          A slide with an embed + title
+        </h3>
+        
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+
+      <article class='nobackground'>
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+
+      <article class='fill'>
+        <h3>
+          Full-slide embed with (optional) slide title on top
+        </h3>
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+      
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        
+        <ul>
+          <li>
+            <a href='http://www.google.com'>google.com</a>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
