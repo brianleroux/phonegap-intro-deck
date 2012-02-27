@@ -557,7 +557,7 @@ function addGeneralStyle() {
   el.rel = 'stylesheet';
   el.type = 'text/css';
   el.href = PERMANENT_URL_PREFIX + 'styles.css';
-  document.body.appendChild(el);
+  //document.body.appendChild(el);
   
   var el = document.createElement('meta');
   el.name = 'viewport';
