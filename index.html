@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="/deckjs/extensions/hash/deck.hash.css">
 	
 	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<link rel="stylesheet" href="/deckjs/themes/style/web-2.0.css">
+	<link rel="stylesheet" href="/deckjs/themes/style/neon.css">
 	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
 	<link rel="stylesheet" href="/deckjs/themes/transition/horizontal-slide.css">
@@ -37,6 +37,9 @@
     </section>
 
     <section class=slide>
+        <style type="text/css" media="screen">
+            th { text-align: left }
+        </style>
         <h2>The Problem</h2>
         <table width=100% height=100%>
           <tr>
@@ -101,24 +104,26 @@
       
     <section class=slide>
         <h2>In Summary</h2>
-        <li>
+        <li class=slide>
             proficient in 8 programming languages and sdks
-        <li>
+        <li class=slide>
             possess 8 devices for testing (emulators not enough to ship)
-        <li>
+        <li class=slide>
             running 2 operating systems (virtualized or otherwise)
     </section>
 
     <section class=slide>
         <h2>More Devices Every Year</h2>
-        <li>
-        tablets on the rise; mostly iPads and Androids
-        <li>
-        feature phones replacing smartphones
-        <li>
-        smartphones accessing the web overtook desktop browsers accessing the web in 2010
-        <li>
-        responsive design in infancy
+        <ul class=slide>
+            <li>
+            tablets on the rise; mostly iPads and Androids
+            <li>
+            feature phones replacing smartphones
+            <li>
+            smartphones accessing the web overtook desktop browsers accessing the web in 2010
+            <li>
+            responsive design in infancy
+         </ul>
     </section>
 
 
@@ -167,7 +172,7 @@
         </h1>
     </section>
 
-    <section class=slide><img class=centered src=img/tank.jpg></section>
+    <section class=slide style=background:white><img class=centered src=img/tank.jpg></section>
       
     <section class=slide>
         <h2>Problems Web Technology Solved</h2>
@@ -252,7 +257,7 @@
     </section>
 
     <section class=slide>
-        <h2>PhoneGap Community</h2>
+        <h2>PhoneGap Corporate Support</h2>
         <li>
         Adobe
         <li>
@@ -322,10 +327,10 @@
 
     <section class=slide>
         <h2>PhoneGap Project Goals</h2>
-        <h4>the web is a first class development platform</h4>
-        &rarr; installable web apps; no sandbox; good tools
-        <h4>cease to exist</h4>
-        &rarr; reference impl for web standards; the W3C DAP was created because of PhoneGap
+        <li class=slide><h4 style=color:#268bd2>the web is a first class development platform</h4>
+        <li class=slide><span style=color:#666>&rarr; installable web apps; no sandbox; good tools</span>
+        <li class=slide><h4 style=color:#268bd2>cease to exist</h4>
+        <li class=slide><span style=color:#666>&rarr; reference impl for web standards; the W3C DAP was created because of PhoneGap</span>
     </section>
       
     <section class=slide>
@@ -408,50 +413,50 @@
     </section>
 
     <section class=slide>
-        <h2>PhoneGap Plugins invalidate any aspect of the web vs native debate.</h2>
+        <h1>PhoneGap Plugins invalidate the web vs native debate. With PhoneGap the web is native!</h1>
     </section>
 
     <section class=slide>
           <h2>PhoneGap Browser Parity</h2>
           <li>
-          phonegap is mostly based on the onboard sdk webkits ...but these are different forks
+          PhoneGap is based on the onboard platform SDK WebKit ...but these are different forks.
           <li>
-          we *could* build our own webkit; but executable size would be &gt;20mb vs &lt;25kb
+          We can, and sometimes do, build our own WebKit; but executable size would be &gt;20mb vs &lt;25kb.
           <li>
-          android performance not quite at ios
+          Android performance not quite to the same level as iOS.
           <li>
-          windows phone uses ie (*sigh)
+          Windows Phone is running IE9 (which actually does have great modern standards compliance and performance).
     </section>
 
     <section class=slide>
           <h2>Hosted Services</h2>
           <li>
-          targets for value add and revenue capability
+          Targets for value add and revenue capability.
           <li>
-          better automatoin, insturmentation, tooling capabilities
+          Better automatoin, insturmentation, tooling capabilities.
           <li>
-          app distribution capability
+          App distribution. 
           <li>
-          http://build.phonegap.com and http://debug.phonegap.com
+          <a href=http://build.phonegap.com>build.phonegap.com</a> and <a href=http://debug.phonegap.com>debug.phonegap.com</a>
     </section>
 
     <section class=slide>
-      <h2>Support Services</h2>
-      <li>
-      security for enterprise customers
-      <li>
-      bug fixes and custom patches
-      <li>
-      a phone number to call anytime
-      <li>
-      advisory hours and custom development problem solving
+        <h2>Support Services</h2>
+        <li>
+        Security for enterprise customers.
+        <li>
+        Bug fixes and custom patches.
+        <li>
+        A phone number to call anytime.
+        <li>
+        Advisory hours and custom development problem solving.
     </section>
 
 
     <section class=slide>
       <h2>First Priority is Contribution</h2>
       <li>
-      an open src project is only as healthy as its activity. 
+      An open src project is only as healthy as its activity. 
       <li>
       First priority is recruitment of committers.
       <li>
@@ -461,22 +466,22 @@
     <section class=slide>
         <h2>Useful Links</h2>
         <li>
-        http://phonegap.com
+        <a href=http://phonegap.com>phonegap.com</a>
         <li>
-        http://phonegap.com/support
+        <a href=http://phonegap.com/support>PhoneGap support</a>
         <li>
-        http://wiki.phonegap.com
+        <a href=http://wiki.phonegap.com>PhoneGap Wiki</a> <span style=color:#666>(Also a great mobile web resource.)</span>
         <li>
-        http://docs.phonegap.com
+        <a href=http://docs.phonegap.com>Documentation</a>
     </section>
 
 
     <section class=slide>
         <h2>Key Contacts</h2>
         <li>
-        open src proj owner: @brianleroux - brianl@adobe.com
+            <a href=mailto:brianl@adobe.com>brianl@adobe.com</a> <a href=http://twitter.com/brianleroux>@brianleroux</a>
         <li>
-        phonegap build proj owner: @davejohnson - dcj@adobe.com
+            <a href=mailto:dcj@adobe.com>dcj@adobe.com</a> <a href=http://twitter.com/davejohnson>@davejohnson</a>
     </section>
 
     
