@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>PhoneGap Intro Deck</title>
-    <meta charset=utf-8>
-    <script src=js/slides.js></script>
-    <script src=js/prettify.js></script>
-    <link type=text/css rel=stylesheet href=css/slides.css>
-  </head>
-  <body style=display:none>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Intro to PhoneGap</title>
+	
+	<meta name="description" content="Intro to PhoneGap">
+	<meta name="author" content="Brian LeRoux">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="/deckjs/core/deck.core.css">
+	<link rel="stylesheet" href="/deckjs/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="/deckjs/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="/deckjs/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="/deckjs/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="/deckjs/extensions/hash/deck.hash.css">
+	
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="/deckjs/themes/style/web-2.0.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="/deckjs/themes/transition/horizontal-slide.css">
+	
+	<script src="/deckjs/modernizr.custom.js"></script>
+</head>
 
-    <section class="slides layout-regular template-default">
-      <article>
-        <h1>
-         PhoneGap 
-          <br>
-          An Introduction
-        </h1>
-        <p>
-        <a href="http://twitter.com/brianleroux">@brianleroux</a>
-          <br>
-          Feb 22, 2012
-        </p>
-      </article>
-      
-      <article>
+<body class=deck-container>
+    
+    <section class=slide id=title-slide>
+        <h1>Intro to PhoneGap</h1>
+        <a href=http://twitter.com/brianleroux>@brianleroux</a>
+    </section>
+
+    <section class=slide>
         <h3>The Problem</h3>
         
         <table>
@@ -85,9 +99,9 @@
                 C++ (Qt)
 
         </table>
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1>In Summary</h1>
         <li>
             proficient in 8 programming languages and sdks
@@ -95,9 +109,9 @@
             possess 8 devices for testing (emulators not enough to ship)
         <li>
             running 2 operating systems (virtualized or otherwise)
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h1>More Devices Every Year</h1>
         <li>
         tablets on the rise; mostly iPads and Androids
@@ -107,10 +121,10 @@
         smartphones accessing the web overtook desktop browsers accessing the web in 2010
         <li>
         responsive design in infancy
-      </article>
+      </section>
 
 
-      <article>
+      <section class=slide>
       <h1>Developer Prediction Impossible</h1>
         <ul>
           <li>
@@ -129,9 +143,9 @@
           2012: ?
           </li>
         </ul>
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
       <h1>The Rise of Web Operating Systems</h1>
         <ul>
           <li>
@@ -147,17 +161,17 @@
           WebinOS effort under way
           </li>
         </ul>
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h2 class=red>
             many operating systems, many sdks, many devices, with more coming, no clear winners or consolidation
         </h2>
-      </article>
+      </section>
 
-      <article><img class=centered src=img/tank.jpg></article>
+      <section class=slide><img class=centered src=img/tank.jpg></section>
       
-      <article>
+      <section class=slide>
         <h3>Problems Web Technology Solved</h3>
         <ul class="build">
           <li>
@@ -170,9 +184,9 @@
             many sdks
           </li>
         </ul>
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h3>Problems Remain</h3>
         <ul class="build">
           <li>
@@ -191,9 +205,9 @@
           the web has shitty tooling
           </li>
         </ul>
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h1>Enter PhoneGap</h1>
         <li>
         hybrid development: combining the strengths of the web with native envs
@@ -201,9 +215,9 @@
         first project to bridge a native browser instance to device apis
         <li>
         all the benefits of the web without hiding the native platforms internals or tooling
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1 class=red>PhoneGap IS NOT</h1>
         <li>
         an IDE (we do not dictate tooling choices)
@@ -213,9 +227,9 @@
         proprietary (everything is open source and apache licensed)
         <li>
         a runtime (shipping a runtime is prohibitive to downloading apps over a network)
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1 class=green>PhoneGap IS</h1>
         <li>
         free open source software
@@ -225,9 +239,9 @@
         open across many platforms
         <li>
         active and diverse development community and committership
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1>PhoneGap is Powered by Apache Cordova</h1>
         <li>
         PhoneGap is a distribution of the open source Apache Cordova Project
@@ -237,10 +251,10 @@
         PhoneGap always has been will always remain free open source software. 
         <li>
         think: cordova is to phonegap as webkit is to chrome 
-      </article>
+      </section>
 
 
-      <article>
+      <section class=slide>
         <h1>PhoneGap Community</h1>
         <li>
         Adobe
@@ -252,9 +266,9 @@
         RIM
         <li>
         Nokia
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1>PhoneGap and Web Standards</h1>
         <li>
         we track various W3C groups
@@ -262,9 +276,9 @@
         we focus largely on W3C Device API working group
         <li>
         also track HTML5 webapps working group, W3C Widget Group, and others
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h1>PhoneGap Philosophy</h1>
         <li>
         simple is better; when in doubt: use brute force 
@@ -272,9 +286,9 @@
         the web solved cross platform across devices
         <li>
         free open source software is a superior model for platform development
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h2>PhoneGap Philosophy: Simple is Better</h2>
         <li>
         a javascript based foreign function interface between a chromeless browser instance on the device and the native platform code
@@ -286,10 +300,10 @@
         this technique has scaled to 8 platforms and up to 300 operations per second
         <li>
         detractors say its ‘not native’. those detractors support 2 platforms, poorly.
-      </article>
+      </section>
 
 
-      <article>
+      <section class=slide>
         <h2>PhoneGap Philosophy: The Web Solved Cross Platform</h2>
         <li>
         Apple iOS
@@ -307,9 +321,9 @@
         Nokia Qt
         <li>
         HP webOS
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h2>PhoneGap Project Goals</h2>
         <li class=grey>
             the web is a first class development platform
@@ -319,9 +333,9 @@
             cease to exist
         <li class=green>
             &rarr; reference impl for web standards; the W3C DAP was created because of PhoneGap
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1>PhoneGap is FREE *</h1>
         <li>
         to use
@@ -332,9 +346,9 @@
         <li>
         to sell
         <h2>* as in speech, not beer</h2>
-      </article>
+      </section>
       
-      <article>
+      <section class=slide>
         <h1>Device APIs</h1>
         <li>
         truely cross platform
@@ -344,10 +358,10 @@
         data
         <li>
         outputs
-      </article>
+      </section>
       
       
-      <article>
+      <section class=slide>
         <h1>Device Sensors</h1>
         <li>
         Camera
@@ -357,10 +371,10 @@
         Magnometer
         <li>
         GPS
-      </article>
+      </section>
       
       
-      <article>
+      <section class=slide>
         <h1>Device Data</h1>
         <li>
         Filesystem
@@ -368,9 +382,9 @@
         Media
         <li>
         Contacts
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h1>PhoneGap &amp; UNIX Philosophy</h1>
         <li>
         we advocate freedom of choice for devlopers
@@ -380,9 +394,9 @@
         we <b>do not</b> dictate tooling for gui development; leave that to the open community and support everyone (jquery, dojo, sencha, yui, etc)
         <li>
         we <b>do not</b> dictate IDE choices; everything can be done with YOUR favorite tool as long as it supports text
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
         <h1>PhoneGap Plugins: Unlimited Extensibility</h1>
         <li>
         Every PhoneGap API is a PhoneGap plugin.
@@ -390,27 +404,27 @@
         3rd parties building plugins now too.
         <li>
         Facebook most notably. Salesforce too.
-      </article>
+      </section>
 
 
 
-      <article>
+      <section class=slide>
         <h1>PhoneGap Problems and Weaknesses</h1>
         <li>
         web vs native
         <li>
         device browser variance
-      </article>
+      </section>
 
 
 
-      <article>
+      <section class=slide>
         <h2>PhoneGap Plugins invalidate any aspect of the web vs native debate.</h2>
-      </article>
+      </section>
 
 
 
-      <article>
+      <section class=slide>
       <h2>PhoneGap Browser Parity</h2>
       <li>
       phonegap is mostly based on the onboard sdk webkits ...but these are different forks
@@ -420,9 +434,9 @@
       android performance not quite at ios
       <li>
       windows phone uses ie (*sigh)
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
       <h2>Hosted Services</h2>
       <li>
       targets for value add and revenue capability
@@ -432,9 +446,9 @@
       app distribution capability
       <li>
       http://build.phonegap.com and http://debug.phonegap.com
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
       <h2>Support Services</h2>
       <li>
       security for enterprise customers
@@ -444,10 +458,10 @@
       a phone number to call anytime
       <li>
       advisory hours and custom development problem solving
-      </article>
+      </section>
 
 
-      <article>
+      <section class=slide>
       <h2>First Priority is Contribution</h2>
       <li>
       an open src project is only as healthy as its activity. 
@@ -455,9 +469,9 @@
       First priority is recruitment of committers.
       <li>
       When we can’t recruit for committing to the open source project we want them to open source plugins.
-      </article>
+      </section>
 
-      <article>
+      <section class=slide>
       <h2>Useful Links</h2>
       <li>
       http://phonegap.com
@@ -467,18 +481,30 @@
       http://wiki.phonegap.com
       <li>
       http://docs.phonegap.com
-      </article>
+      </section>
 
 
-      <article>
+      <section class=slide>
       <h2>Key Contacts</h2>
       <li>
       open src proj owner: @brianleroux - brianl@adobe.com
       <li>
       phonegap build proj owner: @davejohnson - dcj@adobe.com
-      </article>
+      </section>
 
-    </section>
+    
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/deckjs/jquery-1.7.min.js"><\/script>')</script>
 
-  </body>
+    <!-- Deck Core and extensions -->
+    <script src="/deckjs/core/deck.core.js"></script>
+    <script src="/deckjs/extensions/hash/deck.hash.js"></script>
+    <script src="/deckjs/extensions/menu/deck.menu.js"></script>
+    <script src="/deckjs/extensions/goto/deck.goto.js"></script>
+    <script src="/deckjs/extensions/status/deck.status.js"></script>
+    <script src="/deckjs/extensions/navigation/deck.navigation.js"></script>
+
+    <!-- Initialize the deck -->
+    <script>$(function() { $.deck('.slide') })</script>
+</body>
 </html>
